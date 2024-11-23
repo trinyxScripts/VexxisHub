@@ -1,16 +1,110 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Style Webpage</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>TrinyxScripts</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif; /* Polished Font */
+            background-color: #000;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        header {
+            font-size: 2rem;
+            text-align: center;
+            padding: 1rem;
+            background: linear-gradient(90deg, #00f, #0ff);
+            color: #fff;
+            text-shadow: 0 0 8px #0ff;
+            box-shadow: 0 0 15px #00f;
+        }
+
+        .container {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .scrolling-text {
+            font-size: 1.5rem;
+            white-space: nowrap;
+            overflow: hidden;
+            box-shadow: 0 0 15px #00f;
+            color: #0ff;
+            text-shadow: 0 0 10px #0ff;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        .scrolling-text span {
+            display: inline-block;
+            animation: scroll-left 10s linear infinite;
+        }
+
+        @keyframes scroll-left {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+
+        /* Tab Styles */
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+
+        .tab {
+            margin: 0 1rem;
+            padding: 1rem 2rem;
+            background: linear-gradient(90deg, #0f0, #080);
+            color: #0f0;
+            text-shadow: 0 0 8px #0f0;
+            box-shadow: 0 0 15px #080;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tab:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px #0f0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            font-size: 1rem;
+            color: #fff;
+            background: #111;
+            box-shadow: 0 -2px 15px #00f;
+        }
+
+        /* Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    </style>
 </head>
 <body>
-    <header>GitHub Style Header</header>
+    <header>TrinyxScripts</header>
+
     <div class="container">
-        <h1>Welcome to the GitHub Style Webpage</h1>
-        <div class="scrolling-text">This is a scrolling text animation. Enjoy the smooth scrolling effect!</div>
+        <h1>Welcome to TrinyxScripts!</h1>
+        <div class="scrolling-text"><span>Check out the latest updates, scripts, and more at TrinyxScripts!</span></div>
+        <div class="tabs">
+            <a href="https://discord.gg/U4W3ESZj" class="tab" target="_blank">Vexxis</a>
+        </div>
     </div>
+
+    <footer>
+        &copy; 2024 TrinyxScripts. All rights reserved.
+    </footer>
 </body>
 </html>
