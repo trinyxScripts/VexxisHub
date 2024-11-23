@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TrinyxScripts</title>
+    <title>Vexxis</title>
     <style>
         /* Global Styles */
         body {
@@ -13,79 +14,29 @@
             overflow-x: hidden;
         }
 
-        header {
-            font-size: 2rem;
-            text-align: center;
-            padding: 1rem;
-            background: linear-gradient(90deg, #00f, #0ff);
-            color: #fff;
-            text-shadow: 0 0 8px #0ff;
-            box-shadow: 0 0 15px #00f;
-        }
-
         .container {
             padding: 2rem;
             text-align: center;
         }
 
-        .scrolling-text {
-            font-size: 1.5rem;
-            white-space: nowrap;
-            overflow: hidden;
-            box-shadow: 0 0 15px #00f;
-            color: #0ff;
-            text-shadow: 0 0 10px #0ff;
-            margin: 2rem auto;
+        h1 {
+            font-size: 2rem;
+            color: #0f0;
+        }
+
+        .about {
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 2rem 0;
             padding: 1rem;
         }
 
-        .scrolling-text span {
-            display: inline-block;
-            animation: scroll-left 10s linear infinite;
-        }
-
-        @keyframes scroll-left {
-            from {
-                transform: translateX(100%);
-            }
-            to {
-                transform: translateX(-100%);
-            }
-        }
-
-        /* Tab Styles */
-        .tabs {
-            display: flex;
-            justify-content: center;
-            margin: 2rem 0;
-        }
-
-        .tab {
-            margin: 0 1rem;
-            padding: 1rem 2rem;
-            background: linear-gradient(90deg, #0f0, #080);
-            color: #0f0;
-            text-shadow: 0 0 8px #0f0;
-            box-shadow: 0 0 15px #080;
-            border-radius: 5px;
-            font-size: 1.2rem;
-            text-decoration: none;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .tab:hover {
-            transform: scale(1.1);
-            box-shadow: 0 0 20px #0f0;
-        }
-
-        /* Footer */
         footer {
             text-align: center;
             padding: 1rem;
             font-size: 1rem;
             color: #fff;
             background: #111;
-            box-shadow: 0 -2px 15px #00f;
         }
 
         /* Google Font */
@@ -93,18 +44,16 @@
     </style>
 </head>
 <body>
-    <header>TrinyxScripts</header>
-
     <div class="container">
-        <h1>Welcome to TrinyxScripts!</h1>
-        <div class="scrolling-text"><span>Check out the latest updates, scripts, and more at TrinyxScripts!</span></div>
-        <div class="tabs">
-            <a href="https://discord.gg/U4W3ESZj" class="tab" target="_blank">Vexxis</a>
+        <h1>What is Vexxis?</h1>
+        <div class="about">
+            <p>Vexxis is a community for developers, programmers, and scripting enthusiasts to share knowledge and resources.</p>
+            <p>Join us on Discord to connect, collaborate, and grow together!</p>
         </div>
     </div>
 
     <footer>
-        &copy; 2024 TrinyxScripts. All rights reserved.
+        &copy; 2024 Vexxis. All rights reserved.
     </footer>
 </body>
 </html>
