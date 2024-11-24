@@ -1,11 +1,10 @@
 ## Script Thumbnail
 ![image](https://github.com/user-attachments/assets/36300a84-addb-4200-8c03-9217ea2dd4e6)
 
-## ⚡ Features
+## Features
 
-- Game Scripts 📜
 - Universal Scripts 📜
-- Admin Scripts 📜
+- Admin Scripts 
 - Player Scripts
 - Extras 👀
 
