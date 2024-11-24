@@ -6,7 +6,7 @@
 - Universal Scripts 📜
 - Admin Scripts 
 - Player Scripts
-- Extras 👀
+- Extra
 
 ## Patch Notes (Script V.0.1.1)
 -Black And Dark Green Theme
