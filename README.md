@@ -11,7 +11,7 @@
 ## Patch Notes (Script V.0.1.1)
 -Black And Dark Green Theme
 
-## 🔌Shortened Script
+## 🔌Script
 ```lua
 loadstring(game:HttpGet("https://pastebin.com/raw/dbpfU8Cf"))()
 ```
